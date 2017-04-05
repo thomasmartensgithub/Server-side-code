@@ -1,0 +1,37 @@
+INFO	2017-04-05 19:40:40,856	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 19:40:42,323	1467	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
+INFO	2017-04-05 19:49:29,576	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+ERROR	2017-04-05 19:49:33,503	3927	Geek_connect.Geek_inc.server.DatabaseImp	[main]	init Webserver is mislukt 
+javax.ws.rs.ProcessingException: Failed to start Grizzly HTTP server: Address already in use: bind
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory.createHttpServer(GrizzlyHttpServerFactory.java:299)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory.createHttpServer(GrizzlyHttpServerFactory.java:140)
+	at Geek_connect.Geek_inc.server.Server.initWebserver(Server.java:72)
+	at Geek_connect.Geek_inc.server.Server.<init>(Server.java:24)
+	at Geek_connect.Geek_inc.server.Server.main(Server.java:48)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.glassfish.grizzly.http.server.NetworkListener.start(NetworkListener.java:725)
+	at org.glassfish.grizzly.http.server.HttpServer.start(HttpServer.java:277)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory.createHttpServer(GrizzlyHttpServerFactory.java:296)
+	... 4 more
+INFO	2017-04-05 19:50:13,893	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 19:50:15,368	1475	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
+INFO	2017-04-05 20:01:48,689	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 20:01:50,144	1455	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
+INFO	2017-04-05 20:24:00,756	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 20:24:02,382	1626	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
+INFO	2017-04-05 20:30:52,876	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 20:30:54,281	1405	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
+INFO	2017-04-05 20:53:00,950	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 20:53:02,499	1549	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
+INFO	2017-04-05 21:30:27,523	0	Geek_connect.Geek_inc.server.DatabaseImp	[main]	database instantie is class Geek_connect.Geek_inc.server.MockDatabase
+INFO	2017-04-05 21:30:28,898	1375	Geek_connect.Geek_inc.server.DatabaseImp	[main]	Server is gestart op port 8027
