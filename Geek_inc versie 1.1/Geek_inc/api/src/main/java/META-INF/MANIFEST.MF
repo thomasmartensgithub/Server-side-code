@@ -1,0 +1,21 @@
+Manifest-Version: 1.1 Geek_inc
+Class-Path: jersey-common-2.25.1.jar jersey-guava-2.25.1.jar javax.ws.
+ rs-api-2.0.1.jar jackson-databind-2.8.4.jar jackson-jaxrs-json-provid
+ er-2.8.4.jar javassist-3.20.0-GA.jar hk2-locator-2.5.0-b32.jar grizzl
+ y-http-server-2.3.30.jar log4j-1.2.17.jar jackson-annotations-2.8.4.j
+ ar validation-api-1.1.0.Final.jar hk2-api-2.5.0-b32.jar jackson-modul
+ e-jaxb-annotations-2.8.4.jar jackson-jaxrs-base-2.8.4.jar jersey-medi
+ a-json-jackson-2.25.1.jar jackson-mapper-asl-1.9.13.jar slf4j-api-1.7
+ .21.jar jersey-client-2.25.1.jar jersey-media-jaxb-2.25.1.jar osgi-re
+ source-locator-1.0.1.jar grizzly-http-2.3.30.jar grizzly-framework-2.
+ 3.30.jar mysql-connector-java-6.0.6.jar jackson-jaxrs-1.9.13.jar jack
+ son-core-2.8.4.jar aopalliance-repackaged-2.5.0-b32.jar javax.ws.rs-a
+ pi-2.1-m05.jar jackson-core-asl-1.9.13.jar javax.annotation-api-1.2.j
+ ar slf4j-log4j12-1.7.21.jar jersey-server-2.25.1.jar jersey-container
+ -grizzly2-http-2.25.1.jar jersey-entity-filtering-2.25.1.jar javax.in
+ ject-2.5.0-b32.jar hk2-utils-2.5.0-b32.jar
+Main-Class: Geek_connect.Geek_inc.server.Server
+
+
+
+
