@@ -1,0 +1,46 @@
+ERROR	2017-03-31 14:34:36,010	0	nl.hro.themoneymakers.server.DatabaseImpl	[main]	com.mysql.jdbc.Driver
+INFO	2017-03-31 14:34:36,011	1	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Database instantie is class nl.hro.themoneymakers.server.DatabaseImpl
+INFO	2017-03-31 14:34:37,083	1073	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-03-31 14:46:50,400	0	nl.hro.themoneymakers.server.DatabaseImpl	[main]	com.mysql.jdbc.Driver
+INFO	2017-03-31 14:46:50,401	1	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Database instantie is class nl.hro.themoneymakers.server.DatabaseImpl
+INFO	2017-03-31 14:46:51,328	928	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-03-31 14:57:51,965	0	nl.hro.themoneymakers.server.DatabaseImpl	[main]	com.mysql.jdbc.Driver
+INFO	2017-03-31 14:57:51,966	1	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Database instantie is class nl.hro.themoneymakers.server.DatabaseImpl
+ERROR	2017-03-31 14:58:44,762	0	nl.hro.themoneymakers.server.DatabaseImpl	[main]	com.mysql.jdbc.Driver
+INFO	2017-03-31 14:58:44,763	1	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Database instantie is class nl.hro.themoneymakers.server.DatabaseImpl
+INFO	2017-03-31 14:58:45,637	875	nl.hro.themoneymakers.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-04-02 16:50:20,135	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-02 16:50:20,136	1	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+INFO	2017-04-02 16:50:20,981	846	ml.hro.moneymakers.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-04-02 21:50:39,448	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-02 21:50:39,450	2	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+INFO	2017-04-02 21:50:40,273	825	ml.hro.moneymakers.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-04-02 21:51:22,412	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-02 21:51:22,412	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+ERROR	2017-04-07 16:54:52,415	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-07 16:54:52,416	1	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+INFO	2017-04-07 16:54:53,498	1083	ml.hro.moneymakers.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-04-07 16:54:53,742	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-07 16:54:53,743	1	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+ERROR	2017-04-07 16:55:03,304	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-07 16:55:03,305	1	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+ERROR	2017-04-07 16:55:12,597	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-07 16:55:12,649	52	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl
+ERROR	2017-04-07 16:56:58,846	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-04-07 16:56:58,846	0	ml.hro.moneymakers.server.DatabaseImpl	[main]	Database instantie is class ml.hro.moneymakers.server.DatabaseImpl

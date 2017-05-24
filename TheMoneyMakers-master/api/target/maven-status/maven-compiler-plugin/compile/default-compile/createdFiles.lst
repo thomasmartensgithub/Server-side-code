@@ -1,0 +1,6 @@
+ml\hro\moneymakers\api\Credentials.class
+ml\hro\moneymakers\api\Salt.class
+ml\hro\moneymakers\api\WithdrawRequest.class
+ml\hro\moneymakers\api\BalanceResponse.class
+ml\hro\moneymakers\api\SaltMethode.class
+ml\hro\moneymakers\api\WithdrawResponse.class
