@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-      <groupId>Geek.incorporated.bank</groupId>
-      <artifactId>Geek.hro.2017</artifactId>
-    <version>1.0</version>
-  </parent>
-  <artifactId>server</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>Geek.incorporated.bank</groupId>
+        <artifactId>Geek.hro.2017</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>server</artifactId>
 
 
- 
-<build>
+
+    <build>
         <plugins>
             <plugin>
                 <executions>
@@ -23,17 +23,17 @@
                     </execution>
                 </executions>
                 <artifactId>maven-assembly-plugin</artifactId>
-           <!--     <version>3.0.0</version> -->    <!-- zelf versie 2.6 toegevoegd//3.0  -->
+                <!--     <version>3.0.0</version> -->    <!-- zelf versie 2.6 toegevoegd//3.0  -->
                 <configuration>
                     <archive>
                         <manifest>
                             <mainClass>Geek.inc.server.Server</mainClass>    <!-- verwijst naar server???klopt dit?? -->
-                  <!--          <version>1.0</version>  -->    <!-- zelf versie toegevoegd -->
+                            <!--          <version>1.0</version>  -->    <!-- zelf versie toegevoegd -->
                         </manifest>
                     </archive>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
-                      <!--  <version>1.0</version>  -->            <!--   zelf versie 1.0 toegevoegd -->
+                        <!--  <version>1.0</version>  -->            <!--   zelf versie 1.0 toegevoegd -->
                     </descriptorRefs>
                 </configuration>
             </plugin>
@@ -41,24 +41,25 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
-</build>
+    </build>
 
 
-  
-  <dependencies>
-  
+
+    <dependencies>
+
         <dependency>
-        	<groupId>Geek.incorporated.bank</groupId>
-        	<artifactId>api</artifactId>
-        	<version>1.0</version>
+            <groupId>Geek.incorporated.bank</groupId>
+            <artifactId>api</artifactId>
+            <version>1.0</version>
         </dependency>
-          <!--Logging -->
+        <!--Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -71,16 +72,16 @@
             <version>1.7.25</version>
         </dependency>
 
-      <dependency>                   <!-- toegevoegd om correcte trace te krijgen bij debug  -->
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-simple</artifactId>
-          <version>1.7.25</version>
-      </dependency>
+        <dependency>                   <!-- toegevoegd om correcte trace te krijgen bij debug  -->
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+        </dependency>
 
 
 
 
-      <!-- Http server-->
+        <!-- Http server-->
         <dependency>
             <groupId>org.glassfish.grizzly</groupId>
             <artifactId>grizzly-http-server</artifactId>
@@ -104,14 +105,14 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>6.0.6</version>
         </dependency>
-  	
-        <dependency>
-        <groupId>io.jsonwebtoken</groupId>
-         <artifactId>jjwt</artifactId>
-        <version>0.7.0</version>
-	     </dependency>
 
- 	    <dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>2.25.1</version>
@@ -123,25 +124,25 @@
             <version>2.25.1</version>
         </dependency>
 
-      <dependency>
-          <groupId>com.fasterxml.jackson.jaxrs</groupId>            <!-- toegevoegd ivm HTTP 500 error -->
-          <artifactId>jackson-jaxrs-json-provider</artifactId>
-          <version>2.3.3</version>
-      </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.jaxrs</groupId>            <!-- toegevoegd ivm HTTP 500 error -->
+            <artifactId>jackson-jaxrs-json-provider</artifactId>
+            <version>2.3.3</version>
+        </dependency>
 
-   <!--   <dependency>
-          <groupId>Geek.inc.server</groupId>
-          <artifactId>api</artifactId>
-          <version>1.0</version>
-      </dependency>  -->
+        <!--   <dependency>
+               <groupId>Geek.inc.server</groupId>
+               <artifactId>api</artifactId>
+               <version>1.0</version>
+           </dependency>  -->
 
 
-  </dependencies>
-  <repositories>
-  <repository>
-    <id>com.springsource.repository.bundles.external</id>                                   <!-- oplossing internet maven -->
-    <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
-    <url>http://repository.springsource.com/maven/bundles/external</url>
-</repository>
-  </repositories>
-  </project>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>com.springsource.repository.bundles.external</id>                                   <!-- oplossing internet maven -->
+            <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/external</url>
+        </repository>
+    </repositories>
+</project>
