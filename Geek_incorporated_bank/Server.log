@@ -1,0 +1,148 @@
+ERROR	2017-06-07 13:24:46,649	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-07 13:24:46,650	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-07 13:24:48,130	1481	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-07 14:55:10,848	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-07 14:55:10,849	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-09 13:25:23,484	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-09 13:25:23,513	29	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-09 13:26:14,993	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-09 13:26:14,993	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-09 13:26:16,126	1133	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 13:41:27,957	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 13:41:27,991	34	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 13:41:29,167	1210	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 13:43:20,156	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 13:43:20,157	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-13 13:44:15,805	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 13:44:15,805	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 13:44:16,888	1083	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 13:47:16,369	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 13:47:16,370	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 13:47:17,442	1073	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 14:09:42,916	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:09:42,917	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 14:09:44,131	1215	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 22
+ERROR	2017-06-13 14:10:00,106	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:10:00,107	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 14:10:01,216	1110	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 14:26:14,222	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:26:14,222	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-13 14:37:35,099	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:37:35,099	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-13 14:46:07,765	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:46:07,766	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 14:46:08,865	1100	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 14:50:19,803	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:50:19,803	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 14:50:20,971	1168	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 14:55:40,288	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 14:55:40,288	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-13 15:02:58,939	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:02:58,939	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 15:03:00,005	1066	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 15:12:38,856	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:12:38,857	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-13 15:13:28,311	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:13:28,312	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+ERROR	2017-06-13 15:14:02,634	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:14:02,635	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 15:14:03,709	1075	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 15:24:08,464	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:24:08,464	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 15:24:09,530	1066	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 15:29:18,054	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:29:18,054	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 15:29:19,123	1069	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 15:39:16,708	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 15:39:16,708	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 15:39:17,783	1075	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 16:17:15,655	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-13 16:17:15,656	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 16:17:17,074	1419	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-13 16:56:41,459	0	Geek.inc.server.DatabaseImpl	[main]	Cannot load connection class because of underlying exception: com.mysql.cj.core.exceptions.WrongArgumentException: Failed to parse the host:port pair 'localhost:3306mnmvn'.
+INFO	2017-06-13 16:56:41,460	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-13 16:56:44,261	2802	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 10:46:44,237	0	Geek.inc.server.DatabaseImpl	[main]	Cannot load connection class because of underlying exception: com.mysql.cj.core.exceptions.WrongArgumentException: Failed to parse the host:port pair 'localhost:3306mnmvn'.
+INFO	2017-06-16 10:46:44,255	18	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 10:46:45,908	1671	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 10:47:03,859	0	Geek.inc.server.DatabaseImpl	[main]	Cannot load connection class because of underlying exception: com.mysql.cj.core.exceptions.WrongArgumentException: Failed to parse the host:port pair 'localhost:3306mnmvn'.
+INFO	2017-06-16 10:47:03,860	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 10:47:05,272	1413	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 10:50:52,105	0	Geek.inc.server.DatabaseImpl	[main]	Cannot load connection class because of underlying exception: com.mysql.cj.core.exceptions.WrongArgumentException: Failed to parse the host:port pair 'localhost:3306mnmvn'.
+INFO	2017-06-16 10:50:52,105	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 10:50:53,675	1570	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 10:51:53,590	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-16 10:51:53,591	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 10:51:54,644	1054	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+INFO	2017-06-16 10:54:04,832	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.MockDatabase
+INFO	2017-06-16 10:54:06,314	1483	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 13:24:12,004	1	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-16 13:24:12,039	36	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 13:24:13,164	1161	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 13:27:24,033	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-16 13:27:24,034	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 13:27:25,097	1064	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 13:28:18,658	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-16 13:28:18,659	1	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 13:28:19,709	1051	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-06-16 13:31:14,287	0	Geek.inc.server.DatabaseImpl	[main]	Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO	2017-06-16 13:31:14,287	0	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl
+INFO	2017-06-16 13:31:15,379	1092	Geek.inc.server.DatabaseImpl	[main]	Server is gestart op port 8025
+ERROR	2017-07-10 14:45:26,401	0	Geek.inc.server.DatabaseImpl	[main]	No suitable driver found for http://145.24.222.209:3306/Geek_incorporated
+INFO	2017-07-10 14:45:26,416	15	Geek.inc.server.DatabaseImpl	[main]	Database instantie is class Geek.inc.server.DatabaseImpl

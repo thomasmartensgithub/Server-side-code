@@ -1,0 +1,6 @@
+Geek\inc\api\Salt.class
+Geek\inc\api\WithdrawResponse.class
+Geek\inc\api\SaltMethode.class
+Geek\inc\api\BalanceResponse.class
+Geek\inc\api\WithdrawRequest.class
+Geek\inc\api\Credentials.class
