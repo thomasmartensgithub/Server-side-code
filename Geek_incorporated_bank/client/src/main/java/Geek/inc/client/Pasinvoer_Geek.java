@@ -4,17 +4,16 @@ package Geek.inc.client;
 import Geek.inc.api.Credentials;
 import Geek.inc.api.WithdrawRequest;
 import Geek.inc.api.WithdrawResponse;
-import gnu.io.CommPortIdentifier;
-import gnu.io.SerialPort;
-import gnu.io.SerialPortEvent;
-import gnu.io.SerialPortEventListener;
+import gnu.io.*;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Enumeration;
+import java.util.TooManyListenersException;
 import java.util.concurrent.TimeUnit;
 
 public class Pasinvoer_Geek implements SerialPortEventListener {
@@ -98,27 +97,39 @@ public class Pasinvoer_Geek implements SerialPortEventListener {
             return;
         }
 
+        // open serial port, and use class name for the appName.
         try {
-            // open serial port, and use class name for the appName.
             serialPort = (SerialPort) portId.open(this.getClass().getName(),
                     TIME_OUT);
+        } catch (PortInUseException e) {
+            e.printStackTrace();
+        }
 
-            // set port parameters
+        // set port parameters
+        try {
             serialPort.setSerialPortParams(DATA_RATE,
                     SerialPort.DATABITS_8,
                     SerialPort.STOPBITS_1,
                     SerialPort.PARITY_NONE);
-
-            // open the streams
-            input = new BufferedReader(new InputStreamReader(serialPort.getInputStream()));
-          
-
-            // add event listeners
-            serialPort.addEventListener(this);
-            serialPort.notifyOnDataAvailable(true);
-        } catch (Exception e) {
-            System.err.println(e.toString());
+        } catch (UnsupportedCommOperationException e) {
+            e.printStackTrace();
         }
+
+        // open the streams
+        try {
+            input = new BufferedReader(new InputStreamReader(serialPort.getInputStream()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        // add event listeners
+        try {
+            serialPort.addEventListener(this);
+        } catch (TooManyListenersException e) {
+            e.printStackTrace();
+        }
+        serialPort.notifyOnDataAvailable(true);
     }
 
     /**
@@ -169,6 +180,8 @@ public class Pasinvoer_Geek implements SerialPortEventListener {
                 }
             } catch (Exception e) {
                 System.err.println(e.toString());
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
     }
@@ -187,9 +200,13 @@ public class Pasinvoer_Geek implements SerialPortEventListener {
                    
                   
                    System.out.println("Pincode wordt gecontroleerd");
-       				TimeUnit.SECONDS.sleep(1);
-       			 
-               if(client.checkCredentials(temp, pasnummer).isState()){
+                   try {
+                       TimeUnit.SECONDS.sleep(1);
+                   } catch (InterruptedException e) {
+                       e.printStackTrace();
+                   }
+
+                   if(client.checkCredentials(temp, pasnummer).isState()){
                	 System.out.println("Pincode is geaccepteerd");
                	 screen = 1;
                    switchCase();
@@ -260,9 +277,13 @@ public class Pasinvoer_Geek implements SerialPortEventListener {
      			 	WithdrawRequest request = new WithdrawRequest();
      			 request.setAmount(bedrag);
      			 request.setATM(pinclient);
-     			 TimeUnit.SECONDS.sleep(1);
-     			 
-     			 WithdrawResponse response = client.withdraw(request, pasnummer);
+                   try {
+                       TimeUnit.SECONDS.sleep(1);
+                   } catch (InterruptedException e) {
+                       e.printStackTrace();
+                   }
+
+                   WithdrawResponse response = client.withdraw(request, pasnummer);
      			 
      			 if(response.isNoSaldo()){
      				 System.out.println("Saldo ontoereikend");
@@ -329,9 +350,13 @@ public class Pasinvoer_Geek implements SerialPortEventListener {
      			 	WithdrawRequest request = new WithdrawRequest();
      			 request.setAmount(bedrag);
      			 request.setATM(pinclient);
-     			 TimeUnit.SECONDS.sleep(1);
-     			 
-     			 WithdrawResponse response = client.withdraw(request, pasnummer);
+                   try {
+                       TimeUnit.SECONDS.sleep(1);
+                   } catch (InterruptedException e) {
+                       e.printStackTrace();
+                   }
+
+                   WithdrawResponse response = client.withdraw(request, pasnummer);
      			 
      			 if(response.isNoSaldo()){
      				 System.out.println("Saldo ontoereikend");

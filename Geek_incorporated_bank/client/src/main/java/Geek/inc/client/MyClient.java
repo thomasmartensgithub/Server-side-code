@@ -1,8 +1,5 @@
 package Geek.inc.client;
 
-
-
-
 import Geek.inc.api.BalanceResponse;
 import Geek.inc.api.Credentials;
 import Geek.inc.api.WithdrawRequest;
@@ -31,7 +28,6 @@ public class MyClient
     {
         client  = ClientBuilder.newClient().register(JacksonFeature.class);
         target  = client.target("http://145.24.222.209:" + port);
-
     }
 
     public static void main(String[] args)
@@ -140,7 +136,7 @@ public boolean setCredentials(Credentials credit, long pasnummer, String Rekenin
                 .request(MediaType.APPLICATION_JSON)
                 
                 .post(Entity.entity(credit, MediaType.APPLICATION_JSON), boolean.class);
-                ;
+
     	return a;
     	
     }

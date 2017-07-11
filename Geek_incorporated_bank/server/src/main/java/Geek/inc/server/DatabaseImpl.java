@@ -13,7 +13,7 @@ public class DatabaseImpl implements Database {
 	
 	private static final Logger logger= LoggerFactory.getLogger(DatabaseImpl.class);
 	private Connection con;
-	private String host = "jdbc:mysql://localhost:3306/Geek_incorporated";
+	private String host = "http://145.24.222.209:3306/Geek_incorporated";
 	private String uName= "root";
 	private String uPass = "As947b";
 	private ResultSet rs;
