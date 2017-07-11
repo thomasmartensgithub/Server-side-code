@@ -43,7 +43,8 @@ public class Server {
         ResourceConfig config = new ResourceConfig(BackEndpoint.class);
         config.register(JacksonJaxbJsonProvider.class);
 		URI uri = URI.create("http://0.0.0.0:" + port);
-		//logger.info("initwebser gestart "+ initWebserver().toString());
+
+		logger.info("initwebser gestart "+ initWebserver().toString());
 
          /*
          * Code voor het initialiseren van je HTTP server met SSL connectie
@@ -65,5 +66,9 @@ public class Server {
 	public static Database getDatabase() {
 		
 		return DB_INSTANCE;
+
 	}
+
+
+
 }

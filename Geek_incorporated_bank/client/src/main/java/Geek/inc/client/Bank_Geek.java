@@ -23,21 +23,30 @@ public class Bank_Geek {
 	private void read() {
 		String[] a = new String[0];
 		try {
-			FileInputStream fstream = new FileInputStream("geld.txt");
+			FileInputStream fstream = null;
+			try {
+				fstream = new FileInputStream("geld.txt");
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
 			a = new String[3];
-			for (int i = 0; (strLine = br.readLine()) != null; i++) {
+			try {
+				for (int i = 0; (strLine = br.readLine()) != null; i++) {
 
-				System.out.println(strLine);
-				a[i] = strLine;
+                    System.out.println(strLine);
+                    a[i] = strLine;
+                }
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
 
 
 			in.close();
-		} catch (Exception e) {
-			System.out.println("Error: " + e.getMessage());
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 
 		tien = Integer.parseInt(a[0]);
@@ -54,10 +63,12 @@ private void write(String strLine){
 	          br.write(strLine);
 	          br.close();
 	        	  
-	   }catch (Exception e){
-	     System.out.println("Error: " + e.getMessage());
-	   }
+	   } catch (FileNotFoundException e) {
+		e.printStackTrace();
+	} catch (IOException e) {
+		e.printStackTrace();
 	}
+}
 		  
 }
 
